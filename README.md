@@ -6,8 +6,8 @@ robotics/AI internship & co-op postings from public company career APIs,
 scores each one for fit against a specific candidate profile, and presents
 everything in a local Streamlit dashboard.
 
-Built for an Ohio State University Mechanical Engineering student
-(class of 2029), open to roles anywhere in the United States.
+Built for an Ohio State University Mechanical Engineering student,
+open to roles anywhere in the United States.
 
 ## What this actually does (and doesn't)
 
