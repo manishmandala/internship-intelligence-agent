@@ -78,7 +78,7 @@ def build_job_posting(
     # Fall back to matching against the whole description if we couldn't
     # find explicit section headings - better to over-match skills than
     # miss them entirely.
-    skill_search_text = full_text if not required_text else f"{full_text}"
+    skill_search_text = full_text if not required_text else f"{required_text}\n{preferred_text}"
 
     role_category = classify_role_category(title, full_text)
     industry_category = industry_hint or classify_industry(company, title, full_text)
