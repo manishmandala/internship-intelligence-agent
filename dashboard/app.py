@@ -278,7 +278,7 @@ def main() -> None:
     st.caption(
         "Mechanical engineering / manufacturing / product & program management / "
         "consulting / robotics & AI internships, scored for an Ohio State ME "
-        "student (class of 2029)."
+        "student."
     )
 
     df = load_jobs()
